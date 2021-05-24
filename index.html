@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        /* style comment */
+    </style>
+
+    <!-- HTML Comment -->
+    <!-- Variable Declaraton & Assigment Operator-->
+    <script>
+        // javascript variable are declared using keyword "var"
+        var data = 50; // data is a variale that stores value 50 in it
+        console.log(data); // prints 50
+        data = 40;
+        console.log(data); // prints 40
+
+        var m = 1; // assigning value 1 to variable m (= is assignment operator)
+        var r = 2;
+        // assignment example
+        m = r; // assigns value of r in m
+        console.log(m); // should be 2
+    </script>
+
+    <!-- Basic Operations -->
+    <script>
+        var a = 5;
+        var b = 20;
+        // print addition of a & b
+        console.log("a + b is - ", a + b); // answer should be 25
+        // print substraction of a & b
+        console.log("a - b is - ", a - b); // answer should be -15
+        // print multiplication of a & b
+        console.log("a * b is - ", a * b); // answer should be 100
+        // print division of a & b
+        console.log("a / b is - ", a / b); // answer should be 0.25
+    </script>
+
+    <!-- Comparison Operations -> Result -> Boolean Values (true / false) -->
+    <script>
+        var m = 1;
+        var r = 2;
+        // less than
+        console.log("less than -", m < r); // should be true
+        // less than or equal to
+        console.log("less than or equal to -", m <= r); // should be true
+        // greater than
+        console.log("less than or equal to -", m > r); // should be false
+        // greater than or equal to
+        console.log("less than or equal to -", m >= r); // should be false
+        // equal to (exact)
+        console.log("less than or equal to -", m == r); // should be false
+    </script>
+
+    <!-- Conditional Statements (If , Else-If , Else) -->
+    <script>
+        console.log("\n\nIf - Else");
+        // If Statement
+        var age = 25;
+        // if condition
+        if (age > 20) {
+            // body for if condition
+            console.log("Yes!");
+        } else {
+            // body for else condition
+            console.log("No!");
+        }
+
+        // If - ElseIf - Else
+        console.log("\n\nIf - ElseIf - Else");
+        var newAge = 17;
+        if (newAge < 10) {
+            // body for if statement
+            console.log("Yes!");
+        } else if (newAge < 20) {
+            // body for else-if statement
+            console.log("May Be!");
+        } else {
+            // body for else statement
+            console.log("No!");
+        }
+
+    </script>
+
+</body>
+
+</html>
